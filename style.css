@@ -25,5 +25,14 @@ li {
 li:hover {
     border-color:rgb(236, 3, 3) ;
 }
+h2 {
+    display: inline;
+    margin: 0 0 0 600px;
+}
+footer {
+    position: relative;
+    width: 940%;
+    margin: 0 auto;
+}
 
 
