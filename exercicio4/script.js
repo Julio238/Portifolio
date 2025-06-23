@@ -6,18 +6,17 @@ function media() {
         let media = (nota1 + nota2 + nota3) / 3 ;
         
 
-    console.log(resultado);
-    
+    let resultado = document.querySelector('#resultado');
 
-    if(media > 59) {
-        let resultado = document.querySelector('#resultado');
-    resultado.innerHTML = `<p><h2>Você já esta na media </h2></p>`
+    if(media >= 60) {
+        
+    resultado.innerHTML = `<p><h2>Você já esta na media ${media} </h2></p>`
 
     
    } else {
-        let sobra = 59 - media
-     let resultado = document.querySelector('#resultado');
-    resultado.innerHTML = `<p><h2>Você não esta na media ainda falta: ${sobra} </h2></p>`
+        let sobra = 60 - media
+
+    resultado.innerHTML = `<p><h2>Você não esta na media você tem: ${media}  ainda falta: ${sobra} </h2></p>`
 
     
    }
