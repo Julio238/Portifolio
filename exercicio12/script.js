@@ -6,7 +6,7 @@ function calcular(){
     
     while (contador <= num1*10) {
      
-    MostraResultado.innerHTML += `<p>${contador}</P> `;
+    MostraResultado.innerHTML += `<p>            ${contador}</P> `;
         contador += num1
    
 }
